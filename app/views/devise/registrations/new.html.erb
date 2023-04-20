@@ -1,0 +1,26 @@
+<h2>Sign up</h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field row">
+    <%= f.label :email, class: "column one-third" %>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "column one-half" %>
+  </div>
+
+  <div class="field row">
+    <%= f.label :password, class: "column one-third" %>
+    <%= f.password_field :password, autocomplete: "new-password", class: "column one-half" %>
+  </div>
+
+  <div class="field row">
+    <%= f.label :password_confirmation, class: "column one-third" %>
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "column one-half" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Sign up" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>

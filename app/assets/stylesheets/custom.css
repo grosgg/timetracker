@@ -1,0 +1,46 @@
+.header {
+  background-color: black;
+  color: white;
+}
+
+.activity-list {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+.activity-list h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.activity-list p a {
+  color: grey;
+}
+
+.notice {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.errors {
+  border: 1px solid red;
+  color: red;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.button-danger {
+  color: red;
+  border-color: red;
+}
+
+.field > .remember-me {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.footer > form {
+  display: inline-block;
+}
