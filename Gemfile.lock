@@ -226,7 +226,7 @@ DEPENDENCIES
   devise
   jbuilder
   jsbundling-rails
-  puma (= 6.2.1)
+  puma (~> 6)
   rails (~> 7.0.4, >= 7.0.4.3)
   redis (~> 4.0)
   selenium-webdriver
@@ -237,7 +237,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.0.6p216
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.4.12
